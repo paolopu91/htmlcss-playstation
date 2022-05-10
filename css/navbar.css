@@ -1,0 +1,15 @@
+.img-sony{
+    max-width: 100px;
+}
+.container-sony{
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.link-navbar{
+    padding:.5rem;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: 1rem;
+}
