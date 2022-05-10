@@ -11,6 +11,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.section-jumbo{
+    padding-top:3rem;
+}
+.img-jumbo{
+    max-height: 500px;
+    min-height: 500px;
+}
+.section-slider{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .color-txt-white{
     color: white;
 }
