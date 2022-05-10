@@ -25,3 +25,13 @@ body{
 .color-txt-white{
     color: white;
 }
+.link-playstation-limits{
+    text-decoration: none;
+}
+.console-ps5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+}
+}
