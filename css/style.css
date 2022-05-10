@@ -28,10 +28,25 @@ body{
 .link-playstation-limits{
     text-decoration: none;
 }
+.opacity{
+    opacity: .6;
+}
+.opacity:hover{
+    opacity: 1;
+    border-bottom: 1px solid blue;
+}
 .console-ps5{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     align-content: center;
 }
+.img-two-hero{
+    height: 600px;
+}
+.it-takes-two{
+    position: absolute;
+    top:0;
+    left: 10px;
+    color: white;
 }
