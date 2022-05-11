@@ -20,6 +20,9 @@ body{
 .margin-top{
     margin-top:3rem;
 }
+.margin-top-plus{
+    margin-top: 8rem;
+}
 .border-radius{
     border-radius: 10px;
 }
@@ -81,4 +84,14 @@ body{
 }
 .my-card-plus{
     padding-top: 5rem;
+}
+.section-now{
+    background-color: #161C3B;
+}
+.my-card-social{
+    justify-content: center;
+}
+.social{
+    width:160px;
+    height: 160px;
 }
