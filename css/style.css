@@ -160,3 +160,13 @@ body{
         display: none;
     }
 }
+@media screen and (max-width: 576px) {
+    .my-card-social{
+        flex-wrap: wrap;
+    }
+    .social{
+        width: 180px;
+        padding: 1.5rem;
+    }
+    
+}
