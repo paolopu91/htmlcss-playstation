@@ -124,6 +124,27 @@ body{
 }
 
 /* inizio effetti hover */
+.my-btn:hover{
+    background: #000000;
+    border: 2px solid white;
+    outline: 2px solid #000000 ;
+}
+.my-btn-blu:hover{
+    border: 2px solid white;
+    outline: 2px solid #00439C;
+}
+.my-btn-red:hover{
+    border: 2px solid white;
+    outline: 2px solid red;
+}
+.my-btn-grey:hover{
+    border: 2px solid white;
+    outline: 2px solid lightslategray;
+}
+.my-btn-light:hover{
+    border: 2px solid white;
+    outline: 2px solid white;
+}
 .link:hover{
     opacity: 1;
 }
