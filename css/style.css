@@ -29,6 +29,9 @@ body{
 .border-radius-plus{
     border-radius: 25px;
 }
+.menu-nav{
+    display: none;
+}
 .section-jumbo{
     padding-top:3rem;
     height: 500px;
@@ -63,18 +66,26 @@ body{
     height: 100%;
     align-content: center;
 }
+.section-avventure{
+    padding-top: 3rem;
+    height: 700px;
+}
 .img-two-hero{
-    height: 600px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
 }
 .it-takes-two{
     position: absolute;
-    top:0;
+    top: 4em;
     left: 10px;
     color: white;
 }
 .section-new-games{
     background-color: #343a40;
-    margin-top:-3rem;
+    
 }
 .section-playstation-plus{
     background-color: #BEBCBB;
@@ -94,6 +105,7 @@ body{
 .social{
     width:160px;
     height: 160px;
+    padding-right: .5rem;
 }
 .section-footer{
     background-color: #00439C;
@@ -106,4 +118,45 @@ body{
 }
 .w-20{
     width: 20%;
+}
+
+@media screen and (max-width: 1200px){
+    .link-nav{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .my-btn{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .menu-nav{
+        display: block;
+    }
+}
+@media screen and (max-width: 991px) {
+    .title-ps5-devices{
+        font-size: 1rem;
+    }
+    .title-new-games{
+        font-size: 0.9rem;
+    }
+    .my-card-plus{
+        padding: 0%;
+    }
+    .margin-top-zero{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .title-ps5-devices{
+        display: none;
+    }
+    .img-sm-none{
+        display: none;
+    }
 }
