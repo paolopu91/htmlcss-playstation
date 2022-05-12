@@ -32,6 +32,9 @@ body{
 .menu-nav{
     display: none;
 }
+.link{
+    opacity: .8;
+}
 .section-jumbo{
     padding-top:3rem;
     height: 500px;
@@ -54,7 +57,7 @@ body{
     text-decoration: none;
 }
 .opacity{
-    opacity: .6;
+    opacity: .2;
 }
 .opacity:hover{
     opacity: 1;
@@ -120,6 +123,21 @@ body{
     width: 20%;
 }
 
+/* inizio effetti hover */
+.link:hover{
+    opacity: 1;
+}
+.slide:hover{
+    transform: translateY(-2rem);
+    transition: transform 1s;
+}
+.my-btn:hover{
+    border: ;
+    border-radius: 1px solid black;
+}
+
+
+/* inizio delle media query */
 @media screen and (max-width: 1200px){
     .link-nav{
         display: none;
