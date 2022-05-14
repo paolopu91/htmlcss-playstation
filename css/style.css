@@ -156,6 +156,14 @@ body{
     border: ;
     border-radius: 1px solid black;
 }
+.social:hover{
+    transform: translateY(-2rem);
+    transition: transform 1s;
+}
+.new-game:hover{
+    transform:scale(1.1);
+    transition: transform 1s;
+}
 
 
 /* inizio delle media query */
